@@ -29,7 +29,7 @@ const Home = (): JSX.Element => {
     const newSumAmount = { ...sumAmount };
     newSumAmount[product.id] = product.amount;
 
-    return sumAmount;
+    return newSumAmount;
   }, {} as CartItemsAmount)
 
   useEffect(() => {
